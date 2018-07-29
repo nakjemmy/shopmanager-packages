@@ -1,0 +1,24 @@
+footer a:link, footer a:visited {
+  color: white;
+  margin-left: 0; }
+
+footer ul {
+  margin-left: 0;
+  padding-left: 8%; }
+
+footer ul li {
+  list-style: square; }
+
+  /* .carousel-inner>.item {
+    position: relative;
+} */
+
+.carousel-inner>.carousel-item:before {
+    content:'';
+    position: absolute;
+    width:100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.6);
+}
